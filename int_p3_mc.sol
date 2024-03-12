@@ -20,7 +20,7 @@ contract Token is ERC20
         _mint(_to,amount);
     }
 
-    function burn(address _from, uint amount) public onlyOwner 
+    function burn(address _from, uint amount) public
     {
         _burn(_from, amount);
     }
