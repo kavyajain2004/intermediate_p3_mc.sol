@@ -15,7 +15,8 @@ The Token contract inherits from the OpenZeppelin ERC20 implementation, providin
 
 ### Interacting with the Contract
 - **Minting Tokens**: The `mint` function allows the owner to create new tokens and assign them to a specified address.
-- **Burning Tokens**: The `burn` function allows the owner to destroy tokens held by a specified address.
+- **Burning Tokens**: The `burn` function burn or destroy tokens held by a specified address.
+- **Transfering Tokens** : The 'transfer' function overrides transfer function inherited from ERC20. It ensures amount being transfered to that specified address.
 
 ## Installation
 To use this contract in your project, you can import it as a dependency:
